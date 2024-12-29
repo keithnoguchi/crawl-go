@@ -19,7 +19,7 @@ func main() {
 	}
 }
 
-// visit visits DOM nodes in breadth-first search and returns list of URLs.
+// visit visits DOM nodes in depth-first search and returns list of URLs.
 func visit(links []string, n *html.Node) []string {
 	if n.Type == html.ElementNode && n.Data == "a" {
 		for _, a := range n.Attr {
