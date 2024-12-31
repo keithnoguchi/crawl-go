@@ -12,6 +12,7 @@ Language][gopl].
 - [findlink][] finds URL links from the HTML document.
 - [outline][] outlines the HTML DOM elements.
 - [fetchlinks][] fetches and show found links, e.g. fetch | findlink
+- [waitserver][] waits for the server reachability
 
 Happy hacking!
 
@@ -19,3 +20,4 @@ Happy hacking!
 [findlink]: ./cmd/findlink/main.go
 [outline]: ./cmd/outline/main.go
 [fetchlinks]: ./cmd/fetchlinks/main.go
+[waitserver]: ./cmd/waitserver/main.go
