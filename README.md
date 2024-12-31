@@ -11,9 +11,11 @@ Language][gopl].
 - [fetch][] fetches the HTML document for the web site.
 - [findlink][] finds URL links from the HTML document.
 - [outline][] outlines the HTML DOM elements.
+- [fetchlinks][] fetches and show found links, e.g. fetch | findlink
 
 Happy hacking!
 
 [fetch]: ./cmd/fetch/main.go
 [findlink]: ./cmd/findlink/main.go
 [outline]: ./cmd/outline/main.go
+[fetchlinks]: ./cmd/fetchlinks/main.go
