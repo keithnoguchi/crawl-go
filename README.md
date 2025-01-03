@@ -13,6 +13,7 @@ Language][gopl].
 - [outline][] outlines the HTML DOM elements.
 - [fetchlinks][] fetches and show found links, e.g. fetch | findlink
 - [waitserver][] waits for the server reachability
+- [tagoutline][] outlines the HTML DOM elements indented.
 
 Happy hacking!
 
@@ -21,3 +22,4 @@ Happy hacking!
 [outline]: ./cmd/outline/main.go
 [fetchlinks]: ./cmd/fetchlinks/main.go
 [waitserver]: ./cmd/waitserver/main.go
+[tagoutline]: ./cmd/tagoutline/main.go
